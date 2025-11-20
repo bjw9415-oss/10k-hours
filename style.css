@@ -82,7 +82,6 @@ body {
   margin: 0 auto;
 }
 
-/* 텍스트 스타일 */
 .law-explain {
   font-size: clamp(14px, 2vw, 24px);
   color: #ffffff;
@@ -93,7 +92,6 @@ body {
   z-index: 2;
 }
 
-/* 볼드 텍스트 */
 .law-explain strong {
   font-family: GmarketSansBold;
   font-weight: 700;
@@ -106,4 +104,23 @@ body {
   width: clamp(300px, 30vw, 400px);
   opacity: 0.7;
   z-index: 1;
+}
+.input-word {
+  font-size: clamp(14px, 2vw, 24px);
+  color: #ffffff;
+  font-family: GmarketSansMedium;
+  margin: 0;
+  line-height: 1.8;
+  position: relative;
+}
+.fill-input {
+  width: clamp(156px, 16vw, 228px);
+  height: 37px;
+  border-radius: 7px;
+  color: black;
+}
+.fill-input::placeholder {
+  color: #babcbe;
+
+  text-align: center;
 }
