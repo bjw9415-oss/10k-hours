@@ -1,7 +1,10 @@
 body {
   background-color: #044a0c;
 }
-
+@font-face {
+  font-family: "tvNEnjoystories";
+  src: url("../fonts/tvN 즐거운이야기 Light.ttf") format("truetype");
+}
 .title {
   width: 90%;
   max-width: 390px;
@@ -41,4 +44,15 @@ body {
     max-width: 261px;
     aspect-ratio: 1 / 1;
   }
+}
+
+.sub-title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  color: #f5df4d;
+  font-family: "tvNEnjoystories";
+  line-height: 100%;
+  vertical-align: middle;
 }
