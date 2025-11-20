@@ -118,9 +118,29 @@ body {
   height: 37px;
   border-radius: 7px;
   color: black;
+  width: 100px;
+  min-width: 80px;
 }
 .fill-input::placeholder {
   color: #babcbe;
-
   text-align: center;
+}
+
+/* 모바일: 세 줄 */
+.input-word .first-line,
+.input-word .second-line,
+.input-word .third-line {
+  display: block;
+  margin-top: 5px;
+  line-height: 3;
+}
+
+/* 데스크탑 두 번째, 세 번째 줄 한 줄로 합치기 */
+@media screen and (min-width: 1024px) {
+  .input-word .second-line,
+  .input-word .third-line {
+    display: inline;
+    margin-top: 0;
+    line-height: 3;
+  }
 }
