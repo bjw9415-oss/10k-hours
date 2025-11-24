@@ -136,12 +136,14 @@ body {
 }
 /* 인풋박스 스타일 */
 .fill-input {
-  width: clamp(156px, 16vw, 228px);
+  width: clamp(156px, 18vw, 228px);
   height: 37px;
   border-radius: 7px;
   color: black;
   width: 100px;
   min-width: 80px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .fill-input::placeholder {
@@ -159,12 +161,16 @@ body {
 }
 
 /* 데스크탑 두 번째, 세 번째 줄 한 줄로 합치기 */
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .input-word .second-line,
   .input-word .third-line {
     display: inline;
     margin-top: 0;
     line-height: 3;
+  }
+  .fill-input {
+    width: 228px;
+    font-size: 24px;
   }
 }
 /* 버튼과 이미지를 포함한 구조 스타일 */
@@ -217,7 +223,7 @@ body {
 }
 
 /* 데스크탑 */
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .btn-bigbtn {
     width: 565px;
     height: 66px;
