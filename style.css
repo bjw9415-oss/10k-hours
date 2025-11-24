@@ -83,7 +83,7 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-
+/* 법칙설명 하는 문장 스타일 */
 .law-explain {
   font-size: clamp(14px, 2vw, 24px);
   color: #ffffff;
@@ -93,11 +93,12 @@ body {
   position: relative;
   z-index: 2;
 }
-
+/* 강조부분 */
 .law-explain strong {
   font-family: GmarketSansBold;
   font-weight: 700;
 }
+/* 따음표 이미지 */
 .quotes {
   position: absolute;
   top: 0;
@@ -113,6 +114,7 @@ body {
     width: 550px;
   }
 }
+/* 인풋박스를 포함한 문단 스타일 */
 .input-word {
   font-size: clamp(14px, 2vw, 24px);
   color: #ffffff;
@@ -121,6 +123,7 @@ body {
   line-height: 1.8;
   position: relative;
 }
+/* 인풋박스 스타일 */
 .fill-input {
   width: clamp(156px, 16vw, 228px);
   height: 37px;
@@ -129,6 +132,7 @@ body {
   width: 100px;
   min-width: 80px;
 }
+
 .fill-input::placeholder {
   color: #babcbe;
   text-align: center;
@@ -152,6 +156,7 @@ body {
     line-height: 3;
   }
 }
+/* 버튼과 이미지를 포함한 구조 스타일 */
 .btn-image-container {
   display: flex;
   justify-content: center;
@@ -224,10 +229,12 @@ body {
     transform: translateX(430%) translateY(35%);
   }
 }
+/*  */
 .law-explain span {
   display: block;
   font-size: 14px;
 }
+/* 강조 글자 스타일 */
 .big-character {
   font-size: 24px;
   margin: 4px;
@@ -241,7 +248,7 @@ body {
     margin: 10px;
   }
 }
-
+/* 버튼 두개를 가진 구조의 스타일 */
 .two-btn-container {
   display: flex;
   align-items: center;
@@ -250,7 +257,7 @@ body {
   gap: 10px;
   font-size: 14px;
 }
-
+/*go버튼 */
 .btn-gobtn {
   background-color: #fcee21;
   color: #5b2386;
@@ -261,6 +268,7 @@ body {
   font-family: GmarketSansBold;
   transition: 0.3 ease;
 }
+/* 공유하기 버튼 */
 .btn-share {
   background-color: #ffffff;
   color: #5b2386;
