@@ -64,14 +64,16 @@ body {
 /* 부제 타이틀 스타일 */
 .sub-title {
   text-align: center;
-  font-size: clamp(22px, 5vw, 36px);
   color: #f5df4d;
   font-family: "tvNEnjoystories";
   line-height: 1.2;
+}
+.sub-title-p {
+  font-size: clamp(22px, 5vw, 36px);
   margin: clamp(10px, 1vw, 20px) 0;
 }
 @media (min-width: 1024px) {
-  .sub-title {
+  .sub-title-p {
     font-size: 36px;
     margin: 20px;
   }
