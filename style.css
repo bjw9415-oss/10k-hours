@@ -3,7 +3,7 @@ body {
 }
 @font-face {
   font-family: "tvNEnjoystories";
-  src: url("../fonts/tvN 즐거운이야기 Light.ttf") format("truetype");
+  src: url("./fonts/tvN 즐거운이야기 Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "GmarketSansBold";
@@ -61,7 +61,7 @@ body {
     aspect-ratio: 1 / 1;
   }
 }
-
+/* 부제 타이틀 스타일 */
 .sub-title {
   text-align: center;
   font-size: clamp(22px, 5vw, 36px);
@@ -76,7 +76,7 @@ body {
     margin: 20px;
   }
 }
-/* 공통적인 구조 */
+/* 공통적인 문단 스타일 */
 .common-container {
   text-align: center;
   width: 100%;
@@ -110,12 +110,15 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%) translateY(50%);
-  width: clamp(300px, 30vw, 550px);
+  width: clamp(300px, 33vw, 550px);
   opacity: 0.7;
   z-index: 1;
   display: block;
 }
 @media (min-width: 1024px) {
+  .law-explain {
+    font-size: 24px;
+  }
   .quotes {
     width: 550px;
   }
