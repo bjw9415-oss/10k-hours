@@ -174,6 +174,10 @@ body {
   padding: 23px 20px 21px 20px;
   gap: 10px;
   line-height: 1.4;
+  transition: 0.3 ease;
+}
+.btn-bigbtn:hover {
+  transform: scale(1.05);
 }
 
 .btn-bigbtn .first-part,
@@ -249,6 +253,7 @@ body {
   height: clamp(40px, 4vw, 66px);
   cursor: pointer;
   font-family: GmarketSansBold;
+  transition: 0.3 ease;
 }
 .btn-share {
   background-color: #ffffff;
@@ -258,7 +263,15 @@ body {
   height: clamp(40px, 4vw, 66px);
   font-family: GmarketSansBold;
   cursor: pointer;
+  transition: 0.3 ease;
 }
+.btn-share:hover {
+  transform: scale(1.1);
+}
+.btn-gobtn:hover {
+  transform: scale(1.1);
+}
+
 @media (min-width: 1024px) {
   btn-gobtn {
     width: 356px;
