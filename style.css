@@ -102,10 +102,16 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
-  width: clamp(300px, 30vw, 400px);
+  transform: translateX(-50%) translateY(50%);
+  width: clamp(300px, 30vw, 550px);
   opacity: 0.7;
   z-index: 1;
+  display: block;
+}
+@media (min-width: 1024px) {
+  .quotes {
+    width: 550px;
+  }
 }
 .input-word {
   font-size: clamp(14px, 2vw, 24px);
