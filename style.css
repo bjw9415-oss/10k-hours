@@ -70,13 +70,14 @@ body {
   line-height: 1.2;
   margin: clamp(10px, 1vw, 20px) 0;
 }
-.law-container {
+/* 공통적인 구조 */
+.common-container {
   text-align: center;
   width: 100%;
   margin-top: 40px;
 }
-
-.law-wrapper {
+/*  */
+.common-wrapper {
   position: relative;
   display: inline-block;
   text-align: center;
@@ -154,7 +155,7 @@ body {
   width: 100%;
 }
 
-/* 버튼 스타일 */
+/* 큰 버튼 스타일 */
 .btn-bigbtn {
   font-size: 14px;
   font-family: GmarketSansBold;
@@ -179,7 +180,7 @@ body {
 .btn-bigbtn .second-part {
   display: block;
 }
-
+/* 클릭 이미지 */
 .click {
   position: absolute;
   width: 43px;
