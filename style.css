@@ -25,7 +25,7 @@ body {
   width: 90%;
   max-width: 390px;
   position: relative;
-  margin: 5vw auto;
+  margin: 1vw auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,17 +214,31 @@ body {
     transform: translateX(430%) translateY(35%);
   }
 }
-
+.law-explain span {
+  display: block;
+  font-size: 14px;
+}
 .big-character {
   font-size: 24px;
+  margin: 4px;
+}
+@media (min-width: 1024px) {
+  .law-explain span {
+    font-size: 24px;
+  }
+  .big-character {
+    font-size: 72px;
+    margin: 10px;
+  }
 }
 
-.btn-btn-container {
+.two-btn-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 55px;
+  margin-top: 50px;
   gap: 10px;
+  font-size: 14px;
 }
 
 .btn-gobtn {
@@ -233,7 +247,7 @@ body {
   border-radius: 56px;
   width: clamp(186px, 20vw, 356px);
   height: clamp(40px, 4vw, 66px);
-
+  cursor: pointer;
   font-family: GmarketSansBold;
 }
 .btn-share {
@@ -243,14 +257,17 @@ body {
   width: clamp(92px, 9vw, 191px);
   height: clamp(40px, 4vw, 66px);
   font-family: GmarketSansBold;
+  cursor: pointer;
 }
 @media (min-width: 1024px) {
   btn-gobtn {
     width: 356px;
     height: 66px;
+    font-size: 24px;
   }
   btn-share {
     width: 191px;
     height: 66px;
+    font-size: 24px;
   }
 }
