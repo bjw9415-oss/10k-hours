@@ -185,7 +185,7 @@ body {
   padding: 23px 20px 21px 20px;
   gap: 10px;
   line-height: 1.4;
-  transition: 0.3 ease;
+  transition: transform 0.3s ease;
 }
 .btn-bigbtn:hover {
   transform: scale(1.05);
@@ -266,7 +266,7 @@ body {
   height: clamp(40px, 4vw, 66px);
   cursor: pointer;
   font-family: GmarketSansBold;
-  transition: 0.3 ease;
+  transition: transform 0.3s ease;
 }
 /* 공유하기 버튼 */
 .btn-share {
@@ -277,7 +277,7 @@ body {
   height: clamp(40px, 4vw, 66px);
   font-family: GmarketSansBold;
   cursor: pointer;
-  transition: 0.3 ease;
+  transition: transform 0.3s ease;
 }
 .btn-share:hover {
   transform: scale(1.1);
