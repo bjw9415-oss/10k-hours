@@ -20,6 +20,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+/* 맨위 타이틀 */
 .title {
   width: 90%;
   max-width: 390px;
@@ -30,12 +31,12 @@ body {
   align-items: center;
   aspect-ratio: 2.5 / 1; /* 높이 자동 조절 */
 }
-
+/* 타이틀 시계 이미지*/
 .clock {
   width: 30%;
   aspect-ratio: 1 / 1;
 }
-
+/* 타이틀 표제 이미지 */
 .title-image {
   position: absolute;
   width: 70%;
@@ -156,9 +157,9 @@ body {
 /* 버튼 스타일 */
 .btn-bigbtn {
   font-size: 14px;
-  font-family: GmarketSansMedium;
+  font-family: GmarketSansBold;
   border: none;
-  background-color: #4caf50;
+  background-color: #fcee21;
   color: #5b2386;
   cursor: pointer;
   display: inline-flex;
@@ -169,7 +170,6 @@ body {
   width: clamp(241px, 24vw, 565px);
   height: 68px;
   border-radius: 13px;
-
   padding: 23px 20px 21px 20px;
   gap: 10px;
   line-height: 1.4;
@@ -211,5 +211,45 @@ body {
     width: 64px;
     height: 72px;
     transform: translateX(430%) translateY(35%);
+  }
+}
+
+.big-character {
+  font-size: 24px;
+}
+
+.btn-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+  gap: 10px;
+}
+
+.btn-gobtn {
+  background-color: #fcee21;
+  color: #5b2386;
+  border-radius: 56px;
+  width: clamp(186px, 20vw, 356px);
+  height: clamp(40px, 4vw, 66px);
+
+  font-family: GmarketSansBold;
+}
+.btn-share {
+  background-color: #ffffff;
+  color: #5b2386;
+  border-radius: 56px;
+  width: clamp(92px, 9vw, 191px);
+  height: clamp(40px, 4vw, 66px);
+  font-family: GmarketSansBold;
+}
+@media (min-width: 1024px) {
+  btn-gobtn {
+    width: 356px;
+    height: 66px;
+  }
+  btn-share {
+    width: 191px;
+    height: 66px;
   }
 }
